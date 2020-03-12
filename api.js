@@ -1,10 +1,15 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const mongoose = require('mongoose');
+require('dotenv/config');
 
 const app = express();
 const port = 8080;
 
+mongoose.connect(process.env.DB_CONNECTION ,
+      { useNewUrlParser: true },
+      () => console.log('connected'));
 
 app.use(cors());
 
