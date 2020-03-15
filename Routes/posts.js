@@ -25,5 +25,13 @@ router.post('/', async (req,res) => {
     res.json({message: err});
   }
 })
-
+//Finding specific posty with id
+router.get('/:postId' , async (req,res) => {
+  try{
+  const post = await Post.findById(req.params.postId);
+  res.json(post);
+}catch(err){
+  res.json({ message: err});
+}
+})
 module.exports = router;
