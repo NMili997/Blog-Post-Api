@@ -2,11 +2,17 @@
 
 [Node.js](https://nodejs.org/en/)
 
-> <strong>Building RESTFul-Api with Node.js:</strong>
->>![Alt](img/javascript-icon-clipart-3.jpg)<br>
-><strong>Using npm:</strong> ![Alt](img/Npm-logo.svg)<br>
+<strong>Building RESTFul-Api with Node.js:</strong>
+
+![Alt](img/javascript-icon-clipart-3.jpg)<br>
+
+<strong>Using npm:</strong>
+
+![Alt](img/Npm-logo.svg)<br>
+
 <em>Node packages menager</em> command for installing packages: </p>
->>>1. [Express](https://www.npmjs.com/package/express)<br>
+
+1. [Express](https://www.npmjs.com/package/express)<br>
 2. [Cors](https://www.npmjs.com/package/cors)<br>
 3. [Body-Parser](https://www.npmjs.com/package/body-parser)<br>
 4. [Mongoose](https://www.npmjs.com/package/mongoose)
