@@ -31,6 +31,10 @@
 
 <li>Body-parser is for parsing incoming reques bodies in a middleware before your handlers.</li>
 </ul>
+
+>Ways to install packages:
+>><em>npm install express -g </em> <br> <em>npm install body-parser</em>
+
 Some templates for using Express:</p>
 
 ```javascript
@@ -64,3 +68,10 @@ module.exports = mongoose.model('Posts' , PostSchema);
 //Fourth is acessing a Modal:
 const Post = require('../models/Post')
 ```
+<strong>Using Makefile on [Ubuntu](https://ubuntu.com/) :</strong>
+<ul>
+	<li>Using Fakefile, universal Makefile for JS proxies to your npm scripts
+</ul>
+
+>Installing Fakefile package:
+>> <em>npm install --save --exact fakefile</em>
