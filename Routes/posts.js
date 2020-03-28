@@ -24,7 +24,7 @@ router.post('/', async (req,res) => {
   } catch (err) {
     res.json({message: err});
   }
-})
+});
 //Finding specific posty with id
 router.get('/:postId' , async (req,res) => {
   try{
