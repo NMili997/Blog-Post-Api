@@ -16,7 +16,8 @@ app.use('/posts', postsRoute);
 const commentsRoute = require('./Routes/comments');
 app.use('/comments' , commentsRoute);
 
-mongoose.connect(process.env.DB_CONNECTION ,
+mongoose.connect(//process.env.DB_CONNECTION ,
+  'mongodb+srv://sudoCamp:Sudocamp123@cluster0-gzhog.gcp.mongodb.net/test?retryWrites=true&w=majority' ,
       { useNewUrlParser: true },
       () => console.log('connected'));
 
