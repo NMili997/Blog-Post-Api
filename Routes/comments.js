@@ -26,7 +26,7 @@ router.post('/', async(req,res) =>{
 //SPECIFIC Comment
 router.get('/:postId', async(req,res)=>{
   try {
-    const comment = await Comment.find(req.params.postId);
+    const comment = await Comment.findById(req.params.postId);
     res.json(comment);
   } catch (e) {
     res.json({message: e});
