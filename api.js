@@ -11,6 +11,10 @@ app.use(bodyParser.json());
 
 //importing routes
 const postsRoute = require('./Routes/posts');
+app.use(function (req, res, next) {
+  res.setHeader('Access-Control-Allow-Origin', '*');
+  next();
+});
 app.use('/posts', postsRoute);
 
 const commentsRoute = require('./Routes/comments');
