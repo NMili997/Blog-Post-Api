@@ -2,9 +2,9 @@
   "name": "blog-post-api",
   "version": "1.0.0",
   "description": "A node.js RESTful API",
-  "main": "index.js",
+  "main": "api.js",
   "scripts": {
-    "start": "nodemon api.js"
+    "start": "node api.js"
   },
   "author": "Nikola Milivojevic",
   "license": "ISC",
